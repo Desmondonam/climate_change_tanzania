@@ -11,7 +11,7 @@ def save_to_mongodb(df, db_name, collection_name):
     # Convert DataFrame to dictionary
     data = df.to_dict("records")
     
-    # Insert data
+    # Insert data here
     collection.insert_many(data)
 
 # Example usage
